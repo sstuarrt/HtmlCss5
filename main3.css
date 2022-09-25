@@ -1,0 +1,141 @@
+.contentlessons {
+    width: 1366px;
+    height: 742px;
+    background: #EAEBED;
+    border-radius: 41px;
+    box-sizing: border-box;
+    padding: 96px 86px 181px 86px;
+}
+
+.headers {
+
+    width: 1194px;
+    height: 40px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.headersColumns {
+    width: 238px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.lesson {
+    width: 1194px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 21px;
+    box-sizing: border-box;
+}
+
+.lesson:hover {
+    background-color: #FFFFFF;
+}
+
+.column {
+    width: 238px;
+    height: 100%;
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 35px;
+  width: 35px;
+  border-radius: 11px;
+  background-color: #FFFFFF;
+}
+
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark {
+  background-color: #2785F7;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.container .checkmark:after {
+  width: 8px;
+  height: 17px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  margin: 5px 13px;
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-position: center center;
+}
+
+.boxPct {
+    width: 35px;
+    height: 35px;
+    border: 0.5px rgba(0, 0, 0, 0.146) solid;
+    border-radius: 11px;
+    padding-top: 3px;
+    padding-left: 7px;
+
+    box-sizing: border-box;
+}
+
+.imgDwn {
+    width: 20px;
+    height: 22px;
+    filter: invert(100%);
+}
+
+.boxPct:hover {
+    background-color: #2785F7;
+}
+
+.boxPct:hover .imgDwn {
+    filter: invert(0%);
+}

@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-active {
+    color: #2785F7;
+}
+
+.container {
+    width: 1440px;
+    height: 900px;
+    background-color: white;
+}
+
+.menu {
+    width: 486px;
+    height: 45px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 525px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.main {
+    width: 116px;
+    height: 45px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #131313;
+    margin: 0;
+}
+
+.main p:hover {
+    color: #2785F7;
+}
+
+.team {
+    width: 116px;
+    height: 45px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #131313;
+    margin: 0;
+}
+
+.team p:hover {
+    color: #2785F7;
+}
+
+.lessons {
+    width: 116px;
+    height: 45px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #131313;
+    margin: 0;
+}
+
+.lessons p:hover {
+    color: #2785F7;
+}
+
+.content {
+    width: 1404px;
+    height: 726px;
+    background: #EAEBED;
+    border-radius: 30px;
+    margin-left: 18px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.lines {
+    width: 1297px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.first-line {
+    width: 1297px;
+    height: 325px;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-line {
+    width: 1297px;
+    height: 325px;
+    display: flex;
+    flex-direction: row;
+    margin: 15px 35px -15px 20px;
+}
+
+.first {
+    width: 315px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: 35px 35px 0 0;
+}
+.first:hover {
+    background-color: #2785F7;
+}
+.second {
+    width: 315px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: 35px 35px 0 0;
+}
+.second:hover {
+    background-color: #2785F7;
+}
+.third {
+    width: 315px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: 35px 35px 0 0;
+}
+.third:hover {
+    background-color: #2785F7;
+}
+.fourth {
+    width: 315px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: 35px 35px 0 0;
+}
+.fourth:hover {
+    background-color: #2785F7;
+}
+.fifth {
+    width: 315px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: 35px 35px 0 0;
+}
+.fifth:hover {
+    background-color: #2785F7;
+}
+.sixth {
+    width: 315px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: 35px 35px 0 0;
+}
+.sixth:hover {
+    background-color: #2785F7;
+}
+.seventh {
+    width: 315px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: 35px 35px 0 0;
+}
+.seventh:hover {
+    background-color: #2785F7;
+}
+.eighth {
+    width: 315px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: 35px 35px 0 0;
+}
+.eighth:hover {
+    background-color: #2785F7;
+}
+
+.p1{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color:#131313;
+    margin: 0 0 0 80px;
+}
+.p2{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color:#131313;
+    margin: 0 0 0 80px;
+}
+.p3{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color:#131313;
+    margin: 0 0 0 80px;
+}
+.p4{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color:#131313;
+    margin: 0 0 0 80px;
+}
+.p5{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color:#131313;
+    margin: 0 0 0 80px;
+}
+.p6{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color:#131313;
+    margin: 0 0 0 80px;
+}
+.p7{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color:#131313;
+    margin: 0 0 0 80px;
+}
+.p8{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color:#131313;
+    margin: 0 0 0 80px;
+}
+
+.p1-2 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 10px 0 0 50px;
+}
+.p2-2 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 10px 0 0 50px;
+}
+.p3-2 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 10px 0 0 50px;
+}
+.p4-2 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 10px 0 0 50px;
+}
+.p5-2 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 10px 0 0 50px;
+}
+.p6-2 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 10px 0 0 50px;
+}
+.p7-2 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 10px 0 0 50px;
+}
+.p8-2 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 10px 0 0 50px;
+}
+
+.p1-3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 50px 0 0 65px;
+}
+.p2-3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 50px 0 0 65px;
+}
+.p3-3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 50px 0 0 65px;
+}
+.p4-3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 50px 0 0 65px;
+}
+.p5-3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 50px 0 0 65px;
+}
+.p6-3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 50px 0 0 65px;
+}
+.p7-3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 50px 0 0 65px;
+}
+.p8-3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:lightgray;
+    margin: 50px 0 0 65px;
+}
